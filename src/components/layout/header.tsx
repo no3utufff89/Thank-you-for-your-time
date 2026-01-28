@@ -26,7 +26,7 @@ export default function Header({onTimerEnd}: HeaderProps) {
                 </p>
 
                 <Timer
-                    initialTime={2}
+                    initialTime={120}
                     showInHeader={true}
                     onTimerEnd={onTimerEnd}
                     className=""
